@@ -5,6 +5,12 @@
             "version": "0.0.1",
             "scriptMainUnstable": true,
             "description": "WAILA - block/entity cursor info"
+        },
+        {
+            "name": "zardoy.random-drops",
+            "version": "0.0.1",
+            "serverPlugin": true,
+            "description": "Random block drops!"
         }
     ]
 }
