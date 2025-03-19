@@ -1,1 +1,3 @@
-console.log("Hello, World!", bot);
+export default () => {
+    console.log("Hello, World!");
+}
