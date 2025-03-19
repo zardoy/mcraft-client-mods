@@ -1,0 +1,9 @@
+{
+    "packages": [
+        {
+            "name": "zardoy.waila",
+            "version": "0.0.1",
+            "scriptMainUnstable": true
+        }
+    ]
+}
