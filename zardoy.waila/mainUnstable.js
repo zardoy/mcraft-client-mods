@@ -49,7 +49,7 @@ const showTooltip = (name, digTool) => {
     nameDiv.style.cssText = 'margin-bottom: 2px;'
 
     const toolDiv = document.createElement('div')
-    toolDiv.textContent = digTool ? `Dig with ${digTool}` : ''
+    toolDiv.textContent = digTool ? `Tool: ${digTool}` : ''
     toolDiv.style.cssText = 'color: #999;'
 
     div.appendChild(nameDiv)

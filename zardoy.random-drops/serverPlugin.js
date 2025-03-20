@@ -10,7 +10,7 @@ export const server = (server) => {
 export const entity = (entity) => { }
 
 export const player = (player, server) => {
-    player.on('survival_dig', (data) => {
+    player.on('survival_dug', (data) => {
         const mcData = server.mcData
         const allItemsIds = mcData.itemsArray.map(item => item.id)
         const randomItemId = allItemsIds[Math.floor(Math.random() * allItemsIds.length)]
