@@ -2,13 +2,13 @@
     "packages": [
         {
             "name": "zardoy.waila",
-            "version": "0.0.2",
+            "version": "0.0.3",
             "scriptMainUnstable": true,
             "description": "WAILA - block/entity cursor info"
         },
         {
             "name": "zardoy.random-drops",
-            "version": "0.0.2",
+            "version": "0.0.3",
             "serverPlugin": true,
             "description": "Random block drops!"
         }
