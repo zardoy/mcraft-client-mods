@@ -8,7 +8,7 @@
         },
         {
             "name": "zardoy.random-drops",
-            "version": "0.0.4",
+            "version": "0.0.5",
             "serverPlugin": true,
             "description": "Random block drops!"
         }

@@ -10,11 +10,20 @@ export const server = (server) => {
 export const entity = (entity) => { }
 
 export const player = (player, server) => {
-    player.on('survival_dug', (data) => {
+    player.on('dug', (data) => {
+        if (!data.dropBlock) return
         const mcData = server.mcData
         const allItemsIds = mcData.itemsArray.map(item => item.id)
         const randomItemId = allItemsIds[Math.floor(Math.random() * allItemsIds.length)]
-        data.blockDropId = randomItemId
-        data.blockDropCount = Math.floor(Math.random() * (MAX_COUNT - MIN_COUNT + 1)) + MIN_COUNT
+        const firstDrop = data.drops[0]
+        if (!firstDrop) return
+        if (data.drops.length > 1) {
+            // remove other drops
+            data.drops.splice(1, data.drops.length - 1)
+        }
+        data.drops[0] = {
+            ...firstDrop,
+            blockDropId: randomItemId,
+        }
     })
 }
