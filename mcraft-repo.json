@@ -17,6 +17,12 @@
             "version": "0.0.1",
             "threeJsBackend": true,
             "description": "Replace panorama mobs with random mobs"
+        },
+        {
+            "name": "zardoy.blurry-backdrops",
+            "version": "0.0.1",
+            "stylesGlobal": true,
+            "description": "Add blur to backdrops like in new Minecraft"
         }
     ]
 }
