@@ -11,6 +11,12 @@
             "version": "0.0.5",
             "serverPlugin": true,
             "description": "Random block drops!"
+        },
+        {
+            "name": "zardoy.panorama-random-mobs",
+            "version": "0.0.1",
+            "threeJsBackend": true,
+            "description": "Replace panorama mobs with random mobs"
         }
     ]
 }
