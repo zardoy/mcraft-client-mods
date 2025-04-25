@@ -2,7 +2,7 @@
     "packages": [
         {
             "name": "zardoy.waila",
-            "version": "0.0.4",
+            "version": "0.0.5",
             "scriptMainUnstable": true,
             "description": "WAILA - block/entity cursor info"
         },

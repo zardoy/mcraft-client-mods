@@ -19,6 +19,10 @@ export default () => {
       //     showProgress(stage / 10)
       // }
     })
+    bot.on('end', () => {
+      const existingTooltip = document.getElementById('waila-tooltip')
+      if (existingTooltip) existingTooltip.remove()
+    })
   })
 }
 
